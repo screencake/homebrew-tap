@@ -3,27 +3,27 @@ class Screencake < Formula
   desc "Command line tool for Screencake: scripts, storyboards, and call sheets from a terminal"
   homepage "https://screencake.com/docs/cli"
   license "MIT"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/screencake/homebrew-tap/releases/download/v0.1.0/screencake-cli-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "cd8ae53f0f9295621298e0a2cc74f3b293906440cdfdbf599b7125484f8d7620"
+      url "https://github.com/screencake/homebrew-tap/releases/download/v0.1.1/screencake-cli-0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "e91ac674d47b1f3c18d3ca2bd2740ae071b6f4f14928cc52aecc110b048820c0"
     end
     on_intel do
-      url "https://github.com/screencake/homebrew-tap/releases/download/v0.1.0/screencake-cli-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "aa6472e1f6881d88858f0b25b9195f775fc0eb20cb6a82603ee476f1a49dae58"
+      url "https://github.com/screencake/homebrew-tap/releases/download/v0.1.1/screencake-cli-0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "166cfb22ae2df35a8740a5700a2f28ae795176b2a52b1b76e9a33e54212d11be"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/screencake/homebrew-tap/releases/download/v0.1.0/screencake-cli-0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0b95ad7d1ea5421feef52df56177bd88183124d2559b7fbd2b87d8384ff33f41"
+      url "https://github.com/screencake/homebrew-tap/releases/download/v0.1.1/screencake-cli-0.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d5a253c1b5d6e57bc0a7797680d9d194d0ff912cc543d327af1508c90bf12955"
     end
     on_intel do
-      url "https://github.com/screencake/homebrew-tap/releases/download/v0.1.0/screencake-cli-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "16ab051dd5549843a0d3cedc3ebcd0b140a26168be1fd9475e971e5ead4c5450"
+      url "https://github.com/screencake/homebrew-tap/releases/download/v0.1.1/screencake-cli-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4c8eab34b15e48c6a14d74a0befd51b9cb35e4aa3522013d1b43d7a9b984cb73"
     end
   end
 
